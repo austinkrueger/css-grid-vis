@@ -1,0 +1,16 @@
+.grid-item {
+  /* height: 50px; */
+  border: 1px solid #8a4d76;
+  border-radius: 8px;
+  min-width: 100px;
+  cursor: pointer;
+}
+
+.grid-item:hover {
+  border: 1px dashed #8a4d76;
+}
+
+.grid-item.active {
+  border: 1px dashed #8a4d76;
+  background-color: rgba(138, 77, 118, 0.25);
+}
