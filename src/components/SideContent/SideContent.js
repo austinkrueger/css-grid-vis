@@ -7,7 +7,6 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export class SideContent extends React.Component {
   handleChange(event, item) {
-    console.log(item);
     if (event.target.validity.valid) {
       const value = parseInt(event.target.value);
       this.props.handleChange(item, value);
