@@ -139,7 +139,14 @@ export class SideContent extends React.Component {
             className="icon"
             onClick={e => this.handleThemeChange(e)}
           />
-          <FontAwesomeIcon icon={faGithub} className="icon" />
+          <a
+            href="https://www.github.com/austinkrueger/css-grid-vis"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={this.props.darkMode ? 'dark-link' : 'light-link'}
+          >
+            <FontAwesomeIcon icon={faGithub} className="icon" />
+          </a>
         </div>
       </div>
     );

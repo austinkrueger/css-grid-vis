@@ -65,3 +65,27 @@ p.subtitle {
   width: 20px;
   cursor: pointer;
 }
+
+.dark-link,
+.dark-link:hover {
+  color: #fff;
+}
+
+.light-link,
+.light-link:hover {
+  color: #222222;
+}
+
+.light-link,
+.dark-link {
+  text-decoration: none;
+  margin: 0 5px;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.light-link:hover,
+.dark-link:hover {
+  text-decoration: none;
+}
