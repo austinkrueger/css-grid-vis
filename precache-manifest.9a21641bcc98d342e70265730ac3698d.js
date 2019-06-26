@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b4cc09c0819ed713acd754ec0f5d4a7f",
+    "revision": "608f8eacc99e696b09bec3fda2d2c4af",
     "url": "/css-grid-vis/index.html"
   },
   {
