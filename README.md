@@ -23,4 +23,4 @@ Project is sort of a running work in progress, although the core functionality i
 - [x] Make the ‘Reset’ button actually work
 - [x] Remove grid-rows as it makes no sense
 - [x] Add max-width for the main content container
-- [ ] Add testing with cypress
+- [ ] Add tests
